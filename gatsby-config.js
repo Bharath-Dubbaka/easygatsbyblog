@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Easy Ways Online`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Easy Ways Online`,
+      summary: `Blog Build by Indian Tech Entuiasists to help the public in general by providing, One pit-stop to all desi's trying to earn that extra buck with their Digital presence.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Blog Build by Indian Tech Entuiasists to help the public in general by providing, One pit-stop to all desi's trying to earn that extra buck with their Digital presence.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `easy_ways_online/?igshid=1l8uyfslus0ay`,
     },
   },
   plugins: [
@@ -66,7 +66,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/flataction.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
