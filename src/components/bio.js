@@ -12,7 +12,7 @@ import Image from "gatsby-image"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/flataction.png/" }) {
+      avatar: file(absolutePath: { regex: "/blueflataction.jpg/" }) {
         childImageSharp {
           fixed(width: 50, height: 50, quality: 95) {
             ...GatsbyImageSharpFixed
@@ -53,10 +53,10 @@ const Bio = () => {
       )}
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong>, {author?.summary || null}
+          <strong>{author.name}</strong>, is a opensource Blog {author?.summary || null}
           {` `}
-          <a href={`https://www.instagram.com/${social?.twitter || ``}`}>
-            You should follow us on Instagram
+          <a target='_blanl' href={`https://www.linkedin.com/company/aboutyourvisa/${social?.twitter || ``}`}>
+            Follow us on LinkedIn
           </a>
         </p>
       )}

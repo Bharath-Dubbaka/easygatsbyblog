@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, Built by
         {` `}
-        <a href="https://www.gatsbyjs.com">Easy Ways Online</a>. All Rights Reserved.
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/aboutyourvisa/">AboutYourVisa.com</a>. All Rights Reserved.
       </footer>
     </div>
   )

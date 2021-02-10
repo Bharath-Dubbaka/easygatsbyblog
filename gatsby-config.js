@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Easy Ways Online`,
+    title: `AboutYourVisa.com`,
     author: {
-      name: `Easy Ways Online`,
-      summary: `Blog Build by Indian Tech Entuiasists to help the public in general by providing, One pit-stop to all desi's trying to earn that extra buck with their Digital presence.`,
+      name: `About Your Visa`,
+      summary: `Developed in-vision to provide news/update on immigrant visa's all over the world`,
     },
-    description: `Blog Build by Indian Tech Entuiasists to help the public in general by providing, One pit-stop to all desi's trying to earn that extra buck with their Digital presence.`,
+    description: `One-pit-stop for all immigrants for visa regulation and updates from countries (USA, Canada) like H1, H1b, h4, B1, B2, L1, L2, EAD, Business visa, PR, Direct Entry.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `easy_ways_online/?igshid=1l8uyfslus0ay`,
+      twitter: `AboutYourVisa`,
     },
   },
   plugins: [
